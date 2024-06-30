@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#" class="nav_logo">School</a>
+      <ul class="nav_items">
+        <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
+        <li class="nav_item"><a href="#" class="nav_link">About</a></li>
+        <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="registration">
+    <div class="form_container">
+      <h2>Student Registration</h2>
+      <form id="registration_form">
+        <div class="input_box">
+          <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="input_box">
+          <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="input_box">
+          <input type="text" id="course" placeholder="Enter your course" required>
+        </div>
+        <div class="input_box">
+          <input type="text" id="phone" placeholder="Enter your phone number" required>
+        </div>
+        <div class="input_box">
+          <input type="date" id="dob" placeholder="Enter your date of birth" required>
+        </div>
+        <div class="input_box">
+          <input type="text" id="address" placeholder="Enter your address" required>
+        </div>
+        <div class="input_box">
+          <input type="text" id="city" placeholder="Enter your city" required>
+        </div>
+        <div class="input_box">
+          <input type="text" id="state" placeholder="Enter your state" required>
+        </div>
+        <div class="input_box">
+          <input type="text" id="zip" placeholder="Enter your zip code" required>
+        </div>
+        <div class="input_box">
+          <input type="text" id="country" placeholder="Enter your country" required>
+        </div>
+        <button type="submit" class="button">Register</button>
+      </form>
+
+      <div class="registered_students">
+        <h2>Registered Students</h2>
+        <ul id="student_list"></ul>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
